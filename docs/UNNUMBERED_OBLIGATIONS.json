@@ -1,0 +1,42 @@
+[
+  {
+    "obligation": "A.1 trailing standard-basis graph-generation runtime for basic/split/bipartite/sigma families",
+    "implementation": [
+      "StandardAdjacencyAlgorithm.lean"
+    ],
+    "note": "Explicit charged dense-bit decoding, true standard vertex enumeration, actual edge evaluation and complete matrix output; core/bip/sigma total singly exponential bounds compiled."
+  },
+  {
+    "obligation": "B.1 all generation, pruning, field access and final output costs in one operational model",
+    "implementation": [
+      "B1RAM.lean",
+      "B1RAMBuild.lean",
+      "B1RAMStorage.lean",
+      "B1RAMSerialization.lean",
+      "B1RAMBounds.lean"
+    ],
+    "note": "Complete direct costed pointer/word-RAM algorithm, concrete row-storage bridge, same tree and serialized fields, total polynomial bound."
+  },
+  {
+    "obligation": "D.1 exact shared-evaluation optimization cost",
+    "implementation": [
+      "PerfectCode.lean"
+    ],
+    "note": "Fused optimizer evaluates solve once and passes its Result. Legacy repeated-evaluation interface separately receives its larger linear bound."
+  },
+  {
+    "obligation": "C.1 ordinary vs distinct-clause source representation",
+    "implementation": [
+      "ClauseDedupMachine.lean",
+      "OrdinaryCountingSETH.lean"
+    ],
+    "note": "Actual uniform normalization machine with polynomial input-reading cost; source-hypothesis equivalence proved."
+  },
+  {
+    "obligation": "Corollary 3.10: supplied order/decomposition while runtime depends on true graph rank-width",
+    "implementation": [
+      "WitnessedRankWidth.lean"
+    ],
+    "note": "Independent certificate-mode/true-rankwidth predicate and nonmonotone-envelope bridge are proved and integrated in MainResults.corollary_3_10."
+  }
+]

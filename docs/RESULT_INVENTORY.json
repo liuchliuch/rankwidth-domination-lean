@@ -1,0 +1,385 @@
+[
+  {
+    "number": "1.1",
+    "kind": "theorem",
+    "label": "thm:main-informal",
+    "title": "Main theorem, informal",
+    "source_line": 125,
+    "lean": [
+      "MainResults.lean:theorem_1_1_decision",
+      "MainResults.lean:theorem_1_1_counting"
+    ]
+  },
+  {
+    "number": "2.1",
+    "kind": "lemma",
+    "label": "lem:square-eth",
+    "title": "Square-variable ETH and \\(\\#\\mathrm{ETH}\\)",
+    "source_line": 312,
+    "lean": [
+      "Padding.lean",
+      "PaddingPipeline.lean:machine_squarePad",
+      "MachineComposition.lean:compose_outputs",
+      "LowerBounds.lean:square_ETH",
+      "LowerBounds.lean:square_countingETH"
+    ]
+  },
+  {
+    "number": "3.1",
+    "kind": "theorem",
+    "label": "thm:unweighted-ds",
+    "title": "Unweighted Dominating Set",
+    "source_line": 333,
+    "lean": [
+      "CoreLowerBounds.lean:decision_lower_bound",
+      "BipLowerBounds.lean:decision_lower_bound",
+      "BaseTargetWidths.lean",
+      "CompleteFamilyTargetWidths.lean"
+    ]
+  },
+  {
+    "number": "3.2",
+    "kind": "theorem",
+    "label": "thm:counting-ds",
+    "title": "Parsimonious counting consequence",
+    "source_line": 342,
+    "lean": [
+      "CoreLowerBounds.lean:counting_lower_bound",
+      "BipLowerBounds.lean:counting_lower_bound"
+    ]
+  },
+  {
+    "number": "3.3",
+    "kind": "lemma",
+    "label": "lem:basic-normal-form",
+    "title": "Tight-budget normal form",
+    "source_line": 588,
+    "lean": [
+      "Basic.lean:domination_card_lower_bound",
+      "Basic.lean:tight_normal_form"
+    ]
+  },
+  {
+    "number": "3.4",
+    "kind": "lemma",
+    "label": "lem:basic-equality",
+    "title": "Exact equality test",
+    "source_line": 612,
+    "lean": [
+      "Equality.lean:exactEqualityTest"
+    ]
+  },
+  {
+    "number": "3.5",
+    "kind": "lemma",
+    "label": "lem:basic-bijection",
+    "title": "Bijection with satisfying assignments",
+    "source_line": 653,
+    "lean": [
+      "Basic.lean:satisfyingEquivDominating",
+      "Basic.lean:basic_counts"
+    ]
+  },
+  {
+    "number": "3.6",
+    "kind": "lemma",
+    "label": "lem:basic-layout",
+    "title": "Width of the supplied order",
+    "source_line": 729,
+    "lean": [
+      "Order.lean:SuppliedOrder.basic_prefix_bound",
+      "ParameterBounds.lean:basicVertexOrder_width_le"
+    ]
+  },
+  {
+    "number": "3.7",
+    "kind": "proposition",
+    "label": "prop:split-completion",
+    "title": "Split completion",
+    "source_line": 762,
+    "lean": [
+      "Basic.lean:satisfyingEquivDominating (split=true)",
+      "Refinements.lean:split_partition",
+      "Order.lean:SuppliedOrder.split_prefix_bound"
+    ]
+  },
+  {
+    "number": "3.8",
+    "kind": "lemma",
+    "label": "lem:bip-normal-form",
+    "title": "Normal form with a forced hub",
+    "source_line": 803,
+    "lean": [
+      "Refinements.lean:bip_tight_normal_form"
+    ]
+  },
+  {
+    "number": "3.9",
+    "kind": "proposition",
+    "label": "prop:bip-refinement",
+    "title": "Bipartite diameter-four refinement",
+    "source_line": 821,
+    "lean": [
+      "Refinements.lean:bip_isBipartite",
+      "Refinements.lean:bip_ediameter_le_four",
+      "Refinements.lean:satisfyingEquivBipDominating",
+      "Order.lean:SuppliedOrder.bip_prefix_bound"
+    ]
+  },
+  {
+    "number": "3.10",
+    "kind": "corollary",
+    "label": "cor:unweighted-rw",
+    "title": "Rank-width formulation",
+    "source_line": 862,
+    "lean": [
+      "MainResults.lean:corollary_3_10",
+      "WitnessedRankWidth.lean:to_supplied",
+      "WitnessedRankWidth.lean:domination_split",
+      "WitnessedRankWidth.lean:domination_bipartite"
+    ]
+  },
+  {
+    "number": "4.1",
+    "kind": "theorem",
+    "label": "thm:three-variants",
+    "title": "Three domination variants",
+    "source_line": 894,
+    "lean": [
+      "CoreLowerBounds.lean:decision_lower_bound (independent/connected/total)",
+      "BipLowerBounds.lean:decision_lower_bound (connected/total)"
+    ]
+  },
+  {
+    "number": "4.2",
+    "kind": "theorem",
+    "label": "thm:counting-three-variants",
+    "title": "Counting the three variants",
+    "source_line": 909,
+    "lean": [
+      "CoreLowerBounds.lean:counting_lower_bound (independent/connected/total)",
+      "BipLowerBounds.lean:counting_lower_bound (connected/total)"
+    ]
+  },
+  {
+    "number": "4.3",
+    "kind": "lemma",
+    "label": "lem:canonical-geometry",
+    "title": "Structure of the canonical solutions",
+    "source_line": 944,
+    "lean": [
+      "Refinements.lean:canonical_independent",
+      "Refinements.lean:canonical_split_clique",
+      "Refinements.lean:canonical_split_connected",
+      "Refinements.lean:canonical_split_total",
+      "Refinements.lean:bipCanonical_star",
+      "Refinements.lean:bipCanonical_connected",
+      "Refinements.lean:bipCanonical_total"
+    ]
+  },
+  {
+    "number": "4.4",
+    "kind": "proposition",
+    "label": "prop:independent-bijection",
+    "title": "Independent domination",
+    "source_line": 964,
+    "lean": [
+      "Refinements.lean:satisfyingEquivIndependent",
+      "Refinements.lean:independent_counts"
+    ]
+  },
+  {
+    "number": "4.5",
+    "kind": "proposition",
+    "label": "prop:split-connected-total",
+    "title": "Connected and total domination on split graphs",
+    "source_line": 979,
+    "lean": [
+      "Refinements.lean:satisfyingEquivSplitConnected",
+      "Refinements.lean:satisfyingEquivSplitTotal",
+      "Refinements.lean:split_connected_counts",
+      "Refinements.lean:split_total_counts"
+    ]
+  },
+  {
+    "number": "4.6",
+    "kind": "proposition",
+    "label": "prop:bip-connected-total",
+    "title": "Connected and total domination on bipartite graphs",
+    "source_line": 994,
+    "lean": [
+      "Refinements.lean:satisfyingEquivBipConnected",
+      "Refinements.lean:satisfyingEquivBipTotal",
+      "Refinements.lean:bip_connected_counts",
+      "Refinements.lean:bip_total_counts"
+    ]
+  },
+  {
+    "number": "5.1",
+    "kind": "theorem",
+    "label": "thm:sigma-rho-cofinite",
+    "title": "Cofinite-\\(\\rho\\) \\((\\sigma,\\rho)\\)-sets",
+    "source_line": 1036,
+    "lean": [
+      "MainResults.lean:theorem_5_1_independent",
+      "MainResults.lean:theorem_5_1_cofinite",
+      "SigmaLowerBounds.lean"
+    ]
+  },
+  {
+    "number": "5.2",
+    "kind": "lemma",
+    "label": "lem:zero-one-normal-form",
+    "title": "Independent-reservoir normal form",
+    "source_line": 1086,
+    "lean": [
+      "SigmaConstruction.lean:SigmaConstruction.tight_normal_form (independent specialization)"
+    ]
+  },
+  {
+    "number": "5.3",
+    "kind": "lemma",
+    "label": "lem:zero-one-bijection",
+    "title": "Bijection for the \\(0\\in\\sigma,\\ 1\\in\\rho\\) branch",
+    "source_line": 1115,
+    "lean": [
+      "SigmaConstruction.lean:SigmaConstruction.satisfyingEquivSolutions",
+      "SigmaBranches.lean:SigmaConstruction.independent_counts",
+      "SigmaBranches.lean:SigmaConstruction.independent_branch_exists"
+    ]
+  },
+  {
+    "number": "5.4",
+    "kind": "lemma",
+    "label": "lem:zero-one-width",
+    "title": "Width of the independent-reservoir construction",
+    "source_line": 1148,
+    "lean": [
+      "SigmaWidth.lean:SigmaWidth.independent_prefix_bound"
+    ]
+  },
+  {
+    "number": "5.5",
+    "kind": "lemma",
+    "label": "lem:reservoir-lower-bound",
+    "title": "Reservoir lower bound",
+    "source_line": 1208,
+    "lean": [
+      "SigmaRho.lean:reservoir_lower_bound",
+      "SigmaRho.lean:reservoir_tight_iff"
+    ]
+  },
+  {
+    "number": "5.6",
+    "kind": "lemma",
+    "label": "lem:sigma-rho-normal-form",
+    "title": "Generalized tight-budget normal form",
+    "source_line": 1280,
+    "lean": [
+      "SigmaConstruction.lean:SigmaConstruction.tight_normal_form (clique specialization)"
+    ]
+  },
+  {
+    "number": "5.7",
+    "kind": "lemma",
+    "label": "lem:sigma-rho-bijection",
+    "title": "Bijection for cofinite pairs",
+    "source_line": 1311,
+    "lean": [
+      "SigmaConstruction.lean:SigmaConstruction.satisfyingEquivSolutions",
+      "SigmaBranches.lean:SigmaConstruction.cofinite_counts",
+      "SigmaBranches.lean:SigmaConstruction.cofinite_branch_exists"
+    ]
+  },
+  {
+    "number": "5.8",
+    "kind": "lemma",
+    "label": "lem:sigma-rho-width",
+    "title": "Width of the clique-reservoir construction",
+    "source_line": 1353,
+    "lean": [
+      "SigmaWidth.lean:SigmaWidth.clique_prefix_bound"
+    ]
+  },
+  {
+    "number": "A.1",
+    "kind": "lemma",
+    "label": "lem:standard-checker",
+    "title": null,
+    "source_line": 1494,
+    "lean": [
+      "Equality.lean:exactStandardEqualityTest",
+      "Standard.lean:satisfyingEquivDominating",
+      "StandardRefinements.lean",
+      "StandardSigma.lean",
+      "StandardOrder.lean"
+    ]
+  },
+  {
+    "number": "B.1",
+    "kind": "theorem",
+    "label": "thm:three-k-decomposition",
+    "title": null,
+    "source_line": 1512,
+    "lean": [
+      "B1RAMBounds.lean:B1RAM.basic_construction_general",
+      "B1RAMBounds.lean:B1RAM.basic_construction",
+      "B1RAMBounds.lean:B1RAM.split_construction",
+      "B1RAMBounds.lean:B1RAM.bip_construction",
+      "B1RAMStorage.lean",
+      "TreeGraph.lean"
+    ]
+  },
+  {
+    "number": "C.1",
+    "kind": "theorem",
+    "label": "thm:quantitative-counting",
+    "title": null,
+    "source_line": 1554,
+    "lean": [
+      "QuantitativeLowerBounds.lean:decomposition_counting_lower_bound",
+      "QuantitativeLowerBounds.lean:order_counting_lower_bound",
+      "OrdinaryCountingSETH.lean:hypothesis_iff",
+      "ClauseDedupMachine.lean:machine_correct"
+    ]
+  },
+  {
+    "number": "D.1",
+    "kind": "theorem",
+    "label": "thm:perfect-code-split",
+    "title": null,
+    "source_line": 1583,
+    "lean": [
+      "PerfectCode.lean:SplitPerfectCode.characterization",
+      "PerfectCode.lean:SplitPerfectCode.solve_correct",
+      "PerfectCode.lean:SplitPerfectCode.solve_number",
+      "PerfectCode.lean:SplitPerfectCode.solve_cost_graph_bound",
+      "PerfectCode.lean:SplitPerfectCode.minimum_correct",
+      "PerfectCode.lean:SplitPerfectCode.maximum_correct",
+      "PerfectCode.lean:SplitPerfectCode.optimization_resource_bound",
+      "PerfectCode.lean:SplitPerfectCode.optimize_minimum_correct",
+      "PerfectCode.lean:SplitPerfectCode.optimize_maximum_correct",
+      "PerfectCode.lean:SplitPerfectCode.optimize_cost_graph_bound"
+    ]
+  },
+  {
+    "number": "3.11",
+    "kind": "remark",
+    "label": null,
+    "title": "Meaning of parsimony",
+    "lean": [
+      "PaperRemarks.lean:canonical_plus_clause",
+      "PaperRemarks.lean:unrestricted_outside_canonical"
+    ]
+  },
+  {
+    "number": "4.7",
+    "kind": "remark",
+    "label": null,
+    "title": "Why the restrictions differ",
+    "lean": [
+      "PaperRemarks.lean:canonical_split_not_independent",
+      "PaperRemarks.lean:bipCanonical_not_independent"
+    ]
+  }
+]

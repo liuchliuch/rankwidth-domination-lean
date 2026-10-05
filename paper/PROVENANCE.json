@@ -1,0 +1,34 @@
+{
+  "title": "Lower Bounds for Domination-Type Problems Parameterized by Rank-Width",
+  "authors": [
+    "Chenghua Liu",
+    "Boning Meng"
+  ],
+  "arxiv_id": "2608.18854",
+  "version": "v1",
+  "submitted_utc": "2026-08-19T12:27:23Z",
+  "retrieved_utc": "2026-10-04",
+  "urls": {
+    "abstract": "https://arxiv.org/abs/2608.18854v1",
+    "pdf": "https://arxiv.org/pdf/2608.18854v1",
+    "source": "https://arxiv.org/src/2608.18854v1"
+  },
+  "files": {
+    "paper/2608.18854v1.pdf": {
+      "sha256": "bc7277622e98b28f5a7092a8f532ed3eb4d5b75c2112c7029a17042aa117cafe",
+      "bytes": 527677
+    },
+    "paper/2608.18854v1-source.tar": {
+      "sha256": "f143a16eb3bd15aa1fa622745375da12f26678e83f92716a326f18176c09b244",
+      "bytes": 33023
+    },
+    "paper/source/00README.json": {
+      "sha256": "2137f09ef8c45c7e972e2a6f0b2e108e95ff74cf4c72f3a9f6e17a9ee173484a",
+      "bytes": 283
+    },
+    "paper/source/SOSA-Lower_Bounds_for_Domination-Type_Problems_Parameterized_by_Rank-Width.tex": {
+      "sha256": "878c7445618f9def622e9140b814319cb58d06ddaf6bb0788d41277d59256e04",
+      "bytes": 115992
+    }
+  }
+}

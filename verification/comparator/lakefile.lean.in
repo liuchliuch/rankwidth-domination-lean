@@ -1,0 +1,57 @@
+import Lake
+open Lake DSL
+
+package rankwidthComparatorHarness
+
+-- Resolved by comparator-prepare.py to the pinned, reviewed dependency checkout.
+require mathlib from @@MATHLIB@@
+require lean4export from @@EXPORT@@
+require lean4checker from @@CHECKER@@
+
+/-- Build only inside .lake. Both phases use the original module names, so private
+constant identities are preserved. Comparator exports Challenge before it asks
+Lake to build Solution. We intentionally do not cache this phase switch. -/
+structure StageFile where
+  root : String
+  relative : String
+  module : String
+  deriving Lean.FromJson
+
+structure StagePlan where
+  leanPath : String
+  challenge : Array StageFile
+  solution : Array StageFile
+  deriving Lean.FromJson
+
+def runStage (pkg : Package) (isChallenge : Bool) : FetchM (Job Unit) := Job.async do
+  let raw ← IO.FS.readFile (pkg.dir / "stage-plan.json")
+  let plan : StagePlan ← IO.ofExcept <| do
+    Lean.fromJson? (← Lean.Json.parse raw)
+  let output := pkg.buildDir / "lib" / "lean"
+  if ← output.pathExists then
+    IO.FS.removeDirAll output
+  IO.FS.createDirAll output
+  let files := if isChallenge then plan.challenge else plan.solution
+  for entry in files do
+    let source := System.FilePath.mk entry.root / entry.relative
+    let relative := entry.module.replace "." "/"
+    let destination := output / (relative ++ ".olean")
+    if let some parent := destination.parent then
+      IO.FS.createDirAll parent
+    IO.println s!"Stage {if isChallenge then "challenge" else "solution"}: {entry.module}"
+    let result ← IO.Process.output {
+      cmd := "lean"
+      args := #["--root=" ++ entry.root, "-j1", "-o", destination.toString, source.toString]
+      cwd := some (System.FilePath.mk entry.root)
+      env := #[("LEAN_PATH", some plan.leanPath)]
+    }
+    IO.print result.stdout
+    IO.eprint result.stderr
+    if result.exitCode != 0 then
+      error s!"Stage failed on {entry.module} (exit {result.exitCode}):\n{result.stdout}{result.stderr}"
+  IO.FS.writeFile (pkg.buildDir / "comparator-phase.txt")
+    (if isChallenge then "challenge\n" else "solution\n")
+
+-- These are trusted build targets, not replacements for the official tools.
+target Challenge pkg : Unit := runStage pkg true
+target Solution pkg : Unit := runStage pkg false

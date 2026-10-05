@@ -1,0 +1,747 @@
+{
+  "paper_source_sha256": "878c7445618f9def622e9140b814319cb58d06ddaf6bb0788d41277d59256e04",
+  "results": [
+    {
+      "label": "thm:main-informal",
+      "number": "1.1",
+      "status": "complete",
+      "manual_assertions": [
+        "RankwidthPaper.Manual.main_decision",
+        "RankwidthPaper.Manual.main_counting"
+      ],
+      "extracted_regression_assertions": [
+        "RankwidthPaper.result_1_1_1",
+        "RankwidthPaper.result_1_1_2"
+      ],
+      "assertions": [
+        "RankwidthPaper.Manual.main_decision",
+        "RankwidthPaper.Manual.main_counting",
+        "RankwidthPaper.result_1_1_1",
+        "RankwidthPaper.result_1_1_2"
+      ]
+    },
+    {
+      "label": "lem:square-eth",
+      "number": "2.1",
+      "status": "complete",
+      "manual_assertions": [
+        "RankwidthPaper.Manual.square_variable_hardness"
+      ],
+      "extracted_regression_assertions": [
+        "RankwidthPaper.result_2_1_1",
+        "RankwidthPaper.result_2_1_2",
+        "RankwidthPaper.result_2_1_3",
+        "RankwidthPaper.result_2_1_4"
+      ],
+      "assertions": [
+        "RankwidthPaper.Manual.square_variable_hardness",
+        "RankwidthPaper.result_2_1_1",
+        "RankwidthPaper.result_2_1_2",
+        "RankwidthPaper.result_2_1_3",
+        "RankwidthPaper.result_2_1_4"
+      ]
+    },
+    {
+      "label": "thm:unweighted-ds",
+      "number": "3.1",
+      "status": "complete",
+      "manual_assertions": [
+        "RankwidthPaper.Manual.domination_decision"
+      ],
+      "extracted_regression_assertions": [
+        "RankwidthPaper.result_3_1_1",
+        "RankwidthPaper.result_3_1_2",
+        "RankwidthPaper.result_3_1_3"
+      ],
+      "assertions": [
+        "RankwidthPaper.Manual.domination_decision",
+        "RankwidthPaper.result_3_1_1",
+        "RankwidthPaper.result_3_1_2",
+        "RankwidthPaper.result_3_1_3"
+      ]
+    },
+    {
+      "label": "thm:counting-ds",
+      "number": "3.2",
+      "status": "complete",
+      "manual_assertions": [
+        "RankwidthPaper.Manual.domination_counting"
+      ],
+      "extracted_regression_assertions": [
+        "RankwidthPaper.result_3_2_1"
+      ],
+      "assertions": [
+        "RankwidthPaper.Manual.domination_counting",
+        "RankwidthPaper.result_3_2_1"
+      ]
+    },
+    {
+      "label": "lem:basic-normal-form",
+      "number": "3.3",
+      "status": "complete",
+      "manual_assertions": [
+        "RankwidthPaper.Manual.basic_tight_budget"
+      ],
+      "extracted_regression_assertions": [
+        "RankwidthPaper.result_3_3_1",
+        "RankwidthPaper.result_3_3_2"
+      ],
+      "assertions": [
+        "RankwidthPaper.Manual.basic_tight_budget",
+        "RankwidthPaper.result_3_3_1",
+        "RankwidthPaper.result_3_3_2"
+      ]
+    },
+    {
+      "label": "lem:basic-equality",
+      "number": "3.4",
+      "status": "complete",
+      "manual_assertions": [
+        "RankwidthPaper.Manual.checker_detects_matrix_equality"
+      ],
+      "extracted_regression_assertions": [
+        "RankwidthPaper.result_3_4_1",
+        "RankwidthPaper.result_3_4_2"
+      ],
+      "assertions": [
+        "RankwidthPaper.Manual.checker_detects_matrix_equality",
+        "RankwidthPaper.result_3_4_1",
+        "RankwidthPaper.result_3_4_2"
+      ]
+    },
+    {
+      "label": "lem:basic-bijection",
+      "number": "3.5",
+      "status": "complete",
+      "manual_assertions": [
+        "RankwidthPaper.Manual.basic_canonical_bijection",
+        "RankwidthPaper.Manual.basic_exact_count"
+      ],
+      "extracted_regression_assertions": [
+        "RankwidthPaper.result_3_5_1",
+        "RankwidthPaper.result_3_5_2",
+        "RankwidthPaper.result_3_5_3",
+        "RankwidthPaper.result_3_5_4",
+        "RankwidthPaper.result_3_5_5"
+      ],
+      "assertions": [
+        "RankwidthPaper.Manual.basic_canonical_bijection",
+        "RankwidthPaper.Manual.basic_exact_count",
+        "RankwidthPaper.result_3_5_1",
+        "RankwidthPaper.result_3_5_2",
+        "RankwidthPaper.result_3_5_3",
+        "RankwidthPaper.result_3_5_4",
+        "RankwidthPaper.result_3_5_5"
+      ]
+    },
+    {
+      "label": "lem:basic-layout",
+      "number": "3.6",
+      "status": "complete",
+      "manual_assertions": [
+        "RankwidthPaper.Manual.basic_supplied_order_width"
+      ],
+      "extracted_regression_assertions": [
+        "RankwidthPaper.result_3_6_1",
+        "RankwidthPaper.result_3_6_2"
+      ],
+      "assertions": [
+        "RankwidthPaper.Manual.basic_supplied_order_width",
+        "RankwidthPaper.result_3_6_1",
+        "RankwidthPaper.result_3_6_2"
+      ]
+    },
+    {
+      "label": "prop:split-completion",
+      "number": "3.7",
+      "status": "complete",
+      "manual_assertions": [
+        "RankwidthPaper.Manual.split_canonical_bijection",
+        "RankwidthPaper.Manual.split_exact_count",
+        "RankwidthPaper.Manual.split_graph_and_order"
+      ],
+      "extracted_regression_assertions": [
+        "RankwidthPaper.result_3_7_1",
+        "RankwidthPaper.result_3_7_2"
+      ],
+      "assertions": [
+        "RankwidthPaper.Manual.split_canonical_bijection",
+        "RankwidthPaper.Manual.split_exact_count",
+        "RankwidthPaper.Manual.split_graph_and_order",
+        "RankwidthPaper.result_3_7_1",
+        "RankwidthPaper.result_3_7_2"
+      ]
+    },
+    {
+      "label": "lem:bip-normal-form",
+      "number": "3.8",
+      "status": "complete",
+      "manual_assertions": [
+        "RankwidthPaper.Manual.hub_tight_budget"
+      ],
+      "extracted_regression_assertions": [
+        "RankwidthPaper.result_3_8_1",
+        "RankwidthPaper.result_3_8_2"
+      ],
+      "assertions": [
+        "RankwidthPaper.Manual.hub_tight_budget",
+        "RankwidthPaper.result_3_8_1",
+        "RankwidthPaper.result_3_8_2"
+      ]
+    },
+    {
+      "label": "prop:bip-refinement",
+      "number": "3.9",
+      "status": "complete",
+      "manual_assertions": [
+        "RankwidthPaper.Manual.bipartite_diameter_and_order",
+        "RankwidthPaper.Manual.bipartite_canonical_bijection",
+        "RankwidthPaper.Manual.bipartite_exact_count"
+      ],
+      "extracted_regression_assertions": [
+        "RankwidthPaper.result_3_9_1",
+        "RankwidthPaper.result_3_9_2",
+        "RankwidthPaper.result_3_9_3",
+        "RankwidthPaper.result_3_9_4",
+        "RankwidthPaper.result_3_9_5"
+      ],
+      "assertions": [
+        "RankwidthPaper.Manual.bipartite_diameter_and_order",
+        "RankwidthPaper.Manual.bipartite_canonical_bijection",
+        "RankwidthPaper.Manual.bipartite_exact_count",
+        "RankwidthPaper.result_3_9_1",
+        "RankwidthPaper.result_3_9_2",
+        "RankwidthPaper.result_3_9_3",
+        "RankwidthPaper.result_3_9_4",
+        "RankwidthPaper.result_3_9_5"
+      ]
+    },
+    {
+      "label": "cor:unweighted-rw",
+      "number": "3.10",
+      "status": "complete",
+      "manual_assertions": [
+        "RankwidthPaper.Manual.rank_width_with_witness"
+      ],
+      "extracted_regression_assertions": [
+        "RankwidthPaper.result_3_10_1"
+      ],
+      "assertions": [
+        "RankwidthPaper.Manual.rank_width_with_witness",
+        "RankwidthPaper.result_3_10_1"
+      ]
+    },
+    {
+      "label": "thm:three-variants",
+      "number": "4.1",
+      "status": "complete",
+      "manual_assertions": [
+        "RankwidthPaper.Manual.variant_decision"
+      ],
+      "extracted_regression_assertions": [
+        "RankwidthPaper.result_4_1_1"
+      ],
+      "assertions": [
+        "RankwidthPaper.Manual.variant_decision",
+        "RankwidthPaper.result_4_1_1"
+      ]
+    },
+    {
+      "label": "thm:counting-three-variants",
+      "number": "4.2",
+      "status": "complete",
+      "manual_assertions": [
+        "RankwidthPaper.Manual.variant_counting"
+      ],
+      "extracted_regression_assertions": [
+        "RankwidthPaper.result_4_2_1"
+      ],
+      "assertions": [
+        "RankwidthPaper.Manual.variant_counting",
+        "RankwidthPaper.result_4_2_1"
+      ]
+    },
+    {
+      "label": "lem:canonical-geometry",
+      "number": "4.3",
+      "status": "complete",
+      "manual_assertions": [
+        "RankwidthPaper.Manual.canonical_solution_geometry"
+      ],
+      "extracted_regression_assertions": [
+        "RankwidthPaper.result_4_3_1",
+        "RankwidthPaper.result_4_3_2",
+        "RankwidthPaper.result_4_3_3",
+        "RankwidthPaper.result_4_3_4",
+        "RankwidthPaper.result_4_3_5",
+        "RankwidthPaper.result_4_3_6",
+        "RankwidthPaper.result_4_3_7"
+      ],
+      "assertions": [
+        "RankwidthPaper.Manual.canonical_solution_geometry",
+        "RankwidthPaper.result_4_3_1",
+        "RankwidthPaper.result_4_3_2",
+        "RankwidthPaper.result_4_3_3",
+        "RankwidthPaper.result_4_3_4",
+        "RankwidthPaper.result_4_3_5",
+        "RankwidthPaper.result_4_3_6",
+        "RankwidthPaper.result_4_3_7"
+      ]
+    },
+    {
+      "label": "prop:independent-bijection",
+      "number": "4.4",
+      "status": "complete",
+      "manual_assertions": [
+        "RankwidthPaper.Manual.independent_domination_bijection",
+        "RankwidthPaper.Manual.independent_domination_counts"
+      ],
+      "extracted_regression_assertions": [
+        "RankwidthPaper.result_4_4_1",
+        "RankwidthPaper.result_4_4_2"
+      ],
+      "assertions": [
+        "RankwidthPaper.Manual.independent_domination_bijection",
+        "RankwidthPaper.Manual.independent_domination_counts",
+        "RankwidthPaper.result_4_4_1",
+        "RankwidthPaper.result_4_4_2"
+      ]
+    },
+    {
+      "label": "prop:split-connected-total",
+      "number": "4.5",
+      "status": "complete",
+      "manual_assertions": [
+        "RankwidthPaper.Manual.split_connected_domination_bijection",
+        "RankwidthPaper.Manual.split_connected_domination_counts",
+        "RankwidthPaper.Manual.split_total_domination_bijection",
+        "RankwidthPaper.Manual.split_total_domination_counts"
+      ],
+      "extracted_regression_assertions": [
+        "RankwidthPaper.result_4_5_1",
+        "RankwidthPaper.result_4_5_2",
+        "RankwidthPaper.result_4_5_3",
+        "RankwidthPaper.result_4_5_4"
+      ],
+      "assertions": [
+        "RankwidthPaper.Manual.split_connected_domination_bijection",
+        "RankwidthPaper.Manual.split_connected_domination_counts",
+        "RankwidthPaper.Manual.split_total_domination_bijection",
+        "RankwidthPaper.Manual.split_total_domination_counts",
+        "RankwidthPaper.result_4_5_1",
+        "RankwidthPaper.result_4_5_2",
+        "RankwidthPaper.result_4_5_3",
+        "RankwidthPaper.result_4_5_4"
+      ]
+    },
+    {
+      "label": "prop:bip-connected-total",
+      "number": "4.6",
+      "status": "complete",
+      "manual_assertions": [
+        "RankwidthPaper.Manual.bipartite_connected_domination_bijection",
+        "RankwidthPaper.Manual.bipartite_connected_domination_counts",
+        "RankwidthPaper.Manual.bipartite_total_domination_bijection",
+        "RankwidthPaper.Manual.bipartite_total_domination_counts"
+      ],
+      "extracted_regression_assertions": [
+        "RankwidthPaper.result_4_6_1",
+        "RankwidthPaper.result_4_6_2",
+        "RankwidthPaper.result_4_6_3",
+        "RankwidthPaper.result_4_6_4"
+      ],
+      "assertions": [
+        "RankwidthPaper.Manual.bipartite_connected_domination_bijection",
+        "RankwidthPaper.Manual.bipartite_connected_domination_counts",
+        "RankwidthPaper.Manual.bipartite_total_domination_bijection",
+        "RankwidthPaper.Manual.bipartite_total_domination_counts",
+        "RankwidthPaper.result_4_6_1",
+        "RankwidthPaper.result_4_6_2",
+        "RankwidthPaper.result_4_6_3",
+        "RankwidthPaper.result_4_6_4"
+      ]
+    },
+    {
+      "label": "thm:sigma-rho-cofinite",
+      "number": "5.1",
+      "status": "complete",
+      "manual_assertions": [
+        "RankwidthPaper.Manual.sigma_independent_decision",
+        "RankwidthPaper.Manual.sigma_independent_counting",
+        "RankwidthPaper.Manual.sigma_clique_decision",
+        "RankwidthPaper.Manual.sigma_clique_counting"
+      ],
+      "extracted_regression_assertions": [
+        "RankwidthPaper.result_5_1_1",
+        "RankwidthPaper.result_5_1_2",
+        "RankwidthPaper.result_5_1_3"
+      ],
+      "assertions": [
+        "RankwidthPaper.Manual.sigma_independent_decision",
+        "RankwidthPaper.Manual.sigma_independent_counting",
+        "RankwidthPaper.Manual.sigma_clique_decision",
+        "RankwidthPaper.Manual.sigma_clique_counting",
+        "RankwidthPaper.result_5_1_1",
+        "RankwidthPaper.result_5_1_2",
+        "RankwidthPaper.result_5_1_3"
+      ]
+    },
+    {
+      "label": "lem:zero-one-normal-form",
+      "number": "5.2",
+      "status": "complete",
+      "manual_assertions": [
+        "RankwidthPaper.Manual.independent_reservoir_normal_form",
+        "RankwidthPaper.Manual.independent_reservoir_uniform_constants",
+        "RankwidthPaper.Manual.independent_reservoir_monopolar_partition"
+      ],
+      "extracted_regression_assertions": [
+        "RankwidthPaper.result_5_2_1"
+      ],
+      "assertions": [
+        "RankwidthPaper.Manual.independent_reservoir_normal_form",
+        "RankwidthPaper.Manual.independent_reservoir_uniform_constants",
+        "RankwidthPaper.Manual.independent_reservoir_monopolar_partition",
+        "RankwidthPaper.result_5_2_1"
+      ]
+    },
+    {
+      "label": "lem:zero-one-bijection",
+      "number": "5.3",
+      "status": "complete",
+      "manual_assertions": [
+        "RankwidthPaper.Manual.independent_reservoir_bijection",
+        "RankwidthPaper.Manual.independent_reservoir_counts",
+        "RankwidthPaper.Manual.independent_reservoir_uniform_constants",
+        "RankwidthPaper.Manual.clique_reservoir_split_partition",
+        "RankwidthPaper.Manual.independent_reservoir_monopolar_partition"
+      ],
+      "extracted_regression_assertions": [
+        "RankwidthPaper.result_5_3_1",
+        "RankwidthPaper.result_5_3_2",
+        "RankwidthPaper.result_5_3_3"
+      ],
+      "assertions": [
+        "RankwidthPaper.Manual.independent_reservoir_bijection",
+        "RankwidthPaper.Manual.independent_reservoir_counts",
+        "RankwidthPaper.Manual.independent_reservoir_uniform_constants",
+        "RankwidthPaper.Manual.clique_reservoir_split_partition",
+        "RankwidthPaper.Manual.independent_reservoir_monopolar_partition",
+        "RankwidthPaper.result_5_3_1",
+        "RankwidthPaper.result_5_3_2",
+        "RankwidthPaper.result_5_3_3"
+      ]
+    },
+    {
+      "label": "lem:zero-one-width",
+      "number": "5.4",
+      "status": "complete",
+      "manual_assertions": [
+        "RankwidthPaper.Manual.independent_reservoir_order_width"
+      ],
+      "extracted_regression_assertions": [
+        "RankwidthPaper.result_5_4_1"
+      ],
+      "assertions": [
+        "RankwidthPaper.Manual.independent_reservoir_order_width",
+        "RankwidthPaper.result_5_4_1"
+      ]
+    },
+    {
+      "label": "lem:reservoir-lower-bound",
+      "number": "5.5",
+      "status": "complete",
+      "manual_assertions": [
+        "RankwidthPaper.Manual.reservoir_lower_bound_and_equality"
+      ],
+      "extracted_regression_assertions": [
+        "RankwidthPaper.result_5_5_1",
+        "RankwidthPaper.result_5_5_2"
+      ],
+      "assertions": [
+        "RankwidthPaper.Manual.reservoir_lower_bound_and_equality",
+        "RankwidthPaper.result_5_5_1",
+        "RankwidthPaper.result_5_5_2"
+      ]
+    },
+    {
+      "label": "lem:sigma-rho-normal-form",
+      "number": "5.6",
+      "status": "complete",
+      "manual_assertions": [
+        "RankwidthPaper.Manual.clique_reservoir_normal_form",
+        "RankwidthPaper.Manual.clique_reservoir_uniform_constants",
+        "RankwidthPaper.Manual.clique_reservoir_split_partition"
+      ],
+      "extracted_regression_assertions": [
+        "RankwidthPaper.result_5_6_1"
+      ],
+      "assertions": [
+        "RankwidthPaper.Manual.clique_reservoir_normal_form",
+        "RankwidthPaper.Manual.clique_reservoir_uniform_constants",
+        "RankwidthPaper.Manual.clique_reservoir_split_partition",
+        "RankwidthPaper.result_5_6_1"
+      ]
+    },
+    {
+      "label": "lem:sigma-rho-bijection",
+      "number": "5.7",
+      "status": "complete",
+      "manual_assertions": [
+        "RankwidthPaper.Manual.clique_reservoir_bijection",
+        "RankwidthPaper.Manual.clique_reservoir_counts",
+        "RankwidthPaper.Manual.clique_reservoir_uniform_constants",
+        "RankwidthPaper.Manual.clique_reservoir_split_partition"
+      ],
+      "extracted_regression_assertions": [
+        "RankwidthPaper.result_5_7_1",
+        "RankwidthPaper.result_5_7_2",
+        "RankwidthPaper.result_5_7_3"
+      ],
+      "assertions": [
+        "RankwidthPaper.Manual.clique_reservoir_bijection",
+        "RankwidthPaper.Manual.clique_reservoir_counts",
+        "RankwidthPaper.Manual.clique_reservoir_uniform_constants",
+        "RankwidthPaper.Manual.clique_reservoir_split_partition",
+        "RankwidthPaper.result_5_7_1",
+        "RankwidthPaper.result_5_7_2",
+        "RankwidthPaper.result_5_7_3"
+      ]
+    },
+    {
+      "label": "lem:sigma-rho-width",
+      "number": "5.8",
+      "status": "complete",
+      "manual_assertions": [
+        "RankwidthPaper.Manual.clique_reservoir_order_width"
+      ],
+      "extracted_regression_assertions": [
+        "RankwidthPaper.result_5_8_1"
+      ],
+      "assertions": [
+        "RankwidthPaper.Manual.clique_reservoir_order_width",
+        "RankwidthPaper.result_5_8_1"
+      ]
+    },
+    {
+      "label": "lem:standard-checker",
+      "number": "A.1",
+      "status": "complete",
+      "manual_assertions": [
+        "RankwidthPaper.Manual.standard_basis_equality",
+        "RankwidthPaper.Manual.standard_core_generator",
+        "RankwidthPaper.Manual.standard_bipartite_generator",
+        "RankwidthPaper.Manual.standard_reservoir_generator"
+      ],
+      "extracted_regression_assertions": [
+        "RankwidthPaper.result_A_1_1",
+        "RankwidthPaper.result_A_1_2",
+        "RankwidthPaper.result_A_1_3",
+        "RankwidthPaper.result_A_1_4",
+        "RankwidthPaper.result_A_1_5",
+        "RankwidthPaper.result_A_1_6",
+        "RankwidthPaper.result_A_1_7",
+        "RankwidthPaper.result_A_1_8",
+        "RankwidthPaper.result_A_1_9",
+        "RankwidthPaper.result_A_1_10",
+        "RankwidthPaper.result_A_1_11",
+        "RankwidthPaper.result_A_1_12",
+        "RankwidthPaper.result_A_1_13",
+        "RankwidthPaper.result_A_1_14",
+        "RankwidthPaper.result_A_1_15",
+        "RankwidthPaper.result_A_1_16",
+        "RankwidthPaper.result_A_1_17"
+      ],
+      "assertions": [
+        "RankwidthPaper.Manual.standard_basis_equality",
+        "RankwidthPaper.Manual.standard_core_generator",
+        "RankwidthPaper.Manual.standard_bipartite_generator",
+        "RankwidthPaper.Manual.standard_reservoir_generator",
+        "RankwidthPaper.result_A_1_1",
+        "RankwidthPaper.result_A_1_2",
+        "RankwidthPaper.result_A_1_3",
+        "RankwidthPaper.result_A_1_4",
+        "RankwidthPaper.result_A_1_5",
+        "RankwidthPaper.result_A_1_6",
+        "RankwidthPaper.result_A_1_7",
+        "RankwidthPaper.result_A_1_8",
+        "RankwidthPaper.result_A_1_9",
+        "RankwidthPaper.result_A_1_10",
+        "RankwidthPaper.result_A_1_11",
+        "RankwidthPaper.result_A_1_12",
+        "RankwidthPaper.result_A_1_13",
+        "RankwidthPaper.result_A_1_14",
+        "RankwidthPaper.result_A_1_15",
+        "RankwidthPaper.result_A_1_16",
+        "RankwidthPaper.result_A_1_17"
+      ]
+    },
+    {
+      "label": "thm:three-k-decomposition",
+      "number": "B.1",
+      "status": "complete",
+      "manual_assertions": [
+        "RankwidthPaper.Manual.basic_decomposition",
+        "RankwidthPaper.Manual.basic_decomposition_sharp",
+        "RankwidthPaper.Manual.split_decomposition",
+        "RankwidthPaper.Manual.bipartite_decomposition"
+      ],
+      "extracted_regression_assertions": [
+        "RankwidthPaper.result_B_1_1",
+        "RankwidthPaper.result_B_1_2",
+        "RankwidthPaper.result_B_1_3",
+        "RankwidthPaper.result_B_1_4",
+        "RankwidthPaper.result_B_1_5",
+        "RankwidthPaper.result_B_1_6",
+        "RankwidthPaper.result_B_1_7",
+        "RankwidthPaper.result_B_1_8",
+        "RankwidthPaper.result_B_1_9"
+      ],
+      "assertions": [
+        "RankwidthPaper.Manual.basic_decomposition",
+        "RankwidthPaper.Manual.basic_decomposition_sharp",
+        "RankwidthPaper.Manual.split_decomposition",
+        "RankwidthPaper.Manual.bipartite_decomposition",
+        "RankwidthPaper.result_B_1_1",
+        "RankwidthPaper.result_B_1_2",
+        "RankwidthPaper.result_B_1_3",
+        "RankwidthPaper.result_B_1_4",
+        "RankwidthPaper.result_B_1_5",
+        "RankwidthPaper.result_B_1_6",
+        "RankwidthPaper.result_B_1_7",
+        "RankwidthPaper.result_B_1_8",
+        "RankwidthPaper.result_B_1_9"
+      ]
+    },
+    {
+      "label": "thm:quantitative-counting",
+      "number": "C.1",
+      "status": "complete",
+      "manual_assertions": [
+        "RankwidthPaper.Manual.counting_decomposition_constant",
+        "RankwidthPaper.Manual.counting_order_constant"
+      ],
+      "extracted_regression_assertions": [
+        "RankwidthPaper.result_C_1_1",
+        "RankwidthPaper.result_C_1_2",
+        "RankwidthPaper.result_C_1_3",
+        "RankwidthPaper.result_C_1_4"
+      ],
+      "assertions": [
+        "RankwidthPaper.Manual.counting_decomposition_constant",
+        "RankwidthPaper.Manual.counting_order_constant",
+        "RankwidthPaper.result_C_1_1",
+        "RankwidthPaper.result_C_1_2",
+        "RankwidthPaper.result_C_1_3",
+        "RankwidthPaper.result_C_1_4"
+      ]
+    },
+    {
+      "label": "thm:perfect-code-split",
+      "number": "D.1",
+      "status": "complete",
+      "manual_assertions": [
+        "RankwidthPaper.Manual.perfect_code_classification",
+        "RankwidthPaper.Manual.perfect_code_scan",
+        "RankwidthPaper.Manual.perfect_code_scan_linear",
+        "RankwidthPaper.Manual.perfect_code_optima",
+        "RankwidthPaper.Manual.perfect_code_optimization_linear"
+      ],
+      "extracted_regression_assertions": [
+        "RankwidthPaper.result_D_1_1",
+        "RankwidthPaper.result_D_1_2",
+        "RankwidthPaper.result_D_1_3",
+        "RankwidthPaper.result_D_1_4",
+        "RankwidthPaper.result_D_1_5",
+        "RankwidthPaper.result_D_1_6",
+        "RankwidthPaper.result_D_1_7",
+        "RankwidthPaper.result_D_1_8",
+        "RankwidthPaper.result_D_1_9",
+        "RankwidthPaper.result_D_1_10"
+      ],
+      "assertions": [
+        "RankwidthPaper.Manual.perfect_code_classification",
+        "RankwidthPaper.Manual.perfect_code_scan",
+        "RankwidthPaper.Manual.perfect_code_scan_linear",
+        "RankwidthPaper.Manual.perfect_code_optima",
+        "RankwidthPaper.Manual.perfect_code_optimization_linear",
+        "RankwidthPaper.result_D_1_1",
+        "RankwidthPaper.result_D_1_2",
+        "RankwidthPaper.result_D_1_3",
+        "RankwidthPaper.result_D_1_4",
+        "RankwidthPaper.result_D_1_5",
+        "RankwidthPaper.result_D_1_6",
+        "RankwidthPaper.result_D_1_7",
+        "RankwidthPaper.result_D_1_8",
+        "RankwidthPaper.result_D_1_9",
+        "RankwidthPaper.result_D_1_10"
+      ]
+    }
+  ],
+  "remarks": [
+    {
+      "label": null,
+      "number": "3.11",
+      "status": "complete",
+      "manual_assertions": [
+        "RankwidthPaper.Manual.tight_target_restriction_is_essential"
+      ],
+      "extracted_regression_assertions": [
+        "RankwidthPaper.result_3_11_1",
+        "RankwidthPaper.result_3_11_2"
+      ],
+      "assertions": [
+        "RankwidthPaper.Manual.tight_target_restriction_is_essential",
+        "RankwidthPaper.result_3_11_1",
+        "RankwidthPaper.result_3_11_2"
+      ]
+    },
+    {
+      "label": null,
+      "number": "4.7",
+      "status": "complete",
+      "manual_assertions": [
+        "RankwidthPaper.Manual.refinements_destroy_independence"
+      ],
+      "extracted_regression_assertions": [
+        "RankwidthPaper.result_4_7_1",
+        "RankwidthPaper.result_4_7_2"
+      ],
+      "assertions": [
+        "RankwidthPaper.Manual.refinements_destroy_independence",
+        "RankwidthPaper.result_4_7_1",
+        "RankwidthPaper.result_4_7_2"
+      ]
+    }
+  ],
+  "unnumbered_obligations": [
+    {
+      "number": "A.runtime",
+      "description": "Explicit standard-basis graph generation including dense source decoding",
+      "assertions": [
+        "RankwidthPaper.result_A_runtime_1",
+        "RankwidthPaper.result_A_runtime_2",
+        "RankwidthPaper.result_A_runtime_3",
+        "RankwidthPaper.result_A_runtime_4",
+        "RankwidthPaper.result_A_runtime_5",
+        "RankwidthPaper.result_A_runtime_6",
+        "RankwidthPaper.result_A_runtime_7"
+      ],
+      "status": "complete"
+    },
+    {
+      "number": "B.storage",
+      "description": "Concrete row storage and operational read/zero/write bridges",
+      "assertions": [
+        "RankwidthPaper.result_B_storage_1",
+        "RankwidthPaper.result_B_storage_2",
+        "RankwidthPaper.result_B_storage_3",
+        "RankwidthPaper.result_B_storage_4",
+        "RankwidthPaper.result_B_storage_5"
+      ],
+      "status": "complete"
+    }
+  ],
+  "manual_assertion_count": 65,
+  "extracted_regression_assertion_count": 121
+}

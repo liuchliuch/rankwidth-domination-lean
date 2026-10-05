@@ -1,0 +1,51 @@
+[
+  {
+    "name": "positive",
+    "expect": "accept",
+    "required_output": []
+  },
+  {
+    "name": "statement_mismatch",
+    "expect": "reject",
+    "required_output": [
+      "Challenge and solution theorem statement do not match: 'contract'"
+    ]
+  },
+  {
+    "name": "dependency_mismatch",
+    "expect": "reject",
+    "required_output": [
+      "Const does not match between challenge and target 'bound'"
+    ]
+  },
+  {
+    "name": "forbidden_axiom",
+    "expect": "reject",
+    "required_output": [
+      "Illegal axiom detected: 'forbidden'"
+    ]
+  },
+  {
+    "name": "sorry_axiom",
+    "expect": "reject",
+    "required_output": [
+      "Illegal axiom detected: 'sorryAx'"
+    ]
+  },
+  {
+    "name": "unsafe_definition",
+    "expect": "reject",
+    "required_output": [
+      "Const not found in solution: 'value'"
+    ],
+    "reason": "Official exporter omits unsafe constants; required definition is then absent"
+  },
+  {
+    "name": "forged_kernel",
+    "expect": "reject",
+    "required_output": [
+      "Running Lean default kernel on solution.",
+      "(kernel) declaration type mismatch"
+    ]
+  }
+]

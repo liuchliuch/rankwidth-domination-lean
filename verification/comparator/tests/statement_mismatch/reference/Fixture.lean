@@ -1,0 +1,1 @@
+theorem contract : True := sorry

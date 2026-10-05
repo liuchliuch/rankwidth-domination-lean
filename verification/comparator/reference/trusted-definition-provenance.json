@@ -1,0 +1,627 @@
+{
+  "schema_version": 1,
+  "derivation": "Frozen definition dependency cone captured once from already compiled candidate source, then semantically reviewed against original TeX. Construction extraction is not independent mathematical derivation. Normal verification must never regenerate this cone.",
+  "counts": {
+    "inductive": 56,
+    "constructor": 266,
+    "recursor": 56,
+    "definition": 1106,
+    "theorem": 514
+  },
+  "total_declarations": 1998,
+  "instance_attributes": 62,
+  "snapshot_sha256": "dfa59e0519b86c0fa940cc45608b2280fb9d6727ace3b1862e0b09342683dae9",
+  "snapshot_bytes": 9965691,
+  "sources": [
+    {
+      "module": "RankwidthDomination.B1RAM",
+      "path": "RankwidthDomination/B1RAM.lean",
+      "sha256": "978f013636f5baf1e01b6751a0a987b34332bf02732df40bcdac4e12fbb4087b"
+    },
+    {
+      "module": "RankwidthDomination.B1RAMBuild",
+      "path": "RankwidthDomination/B1RAMBuild.lean",
+      "sha256": "5f66bcafbb830f0e5d3705c1c66b2406262f6d0b863fbc257a2ced38fdb863f2"
+    },
+    {
+      "module": "RankwidthDomination.B1RAMSerialization",
+      "path": "RankwidthDomination/B1RAMSerialization.lean",
+      "sha256": "712bfaee182aa1f2a59c1a0f0d2686f2067cdae3bbf5e065ea39ca20e9c03b53"
+    },
+    {
+      "module": "RankwidthDomination.B1RAMStorage",
+      "path": "RankwidthDomination/B1RAMStorage.lean",
+      "sha256": "19824de3b66d3e7f0f85ce56d38654e520ac87aa9177ae008d47c81cb4ea867c"
+    },
+    {
+      "module": "RankwidthDomination.Basic",
+      "path": "RankwidthDomination/Basic.lean",
+      "sha256": "a9e1cd254f6c5fae8efc7570ca054f76310dc43838db8ba2bd986896efd8fb6e"
+    },
+    {
+      "module": "RankwidthDomination.BlockCuts",
+      "path": "RankwidthDomination/BlockCuts.lean",
+      "sha256": "caf58ab2ff954a3b8691c0a94c2aeaa0d4ad4c555915ac620835c72e80e87058"
+    },
+    {
+      "module": "RankwidthDomination.ClauseDedupMachine",
+      "path": "RankwidthDomination/ClauseDedupMachine.lean",
+      "sha256": "bac6521cbf56401119194d24fc2eb7b80f4a4730a9ea780d9dfbf358b244fef8"
+    },
+    {
+      "module": "RankwidthDomination.CompleteFamilyTargetPipeline",
+      "path": "RankwidthDomination/CompleteFamilyTargetPipeline.lean",
+      "sha256": "9eb567545277426d571fc045a2c497e7e159c7581f333cce297e25123eb77e8e"
+    },
+    {
+      "module": "RankwidthDomination.CompleteTargetPipeline",
+      "path": "RankwidthDomination/CompleteTargetPipeline.lean",
+      "sha256": "3d6b6e9006a2acc43d381509da89f9374856e546ea163f9e7f722fdf3b61b78b"
+    },
+    {
+      "module": "RankwidthDomination.Complexity",
+      "path": "RankwidthDomination/Complexity.lean",
+      "sha256": "5093ef3595e85614dc0f41be0402d7f7aa9beb33dda225e9572b77e4c14d41e1"
+    },
+    {
+      "module": "RankwidthDomination.ConstantRows",
+      "path": "RankwidthDomination/ConstantRows.lean",
+      "sha256": "4419b1d5a15de0b1900cb614c3a590bac9b0b10421822f0017bded69bcb10854"
+    },
+    {
+      "module": "RankwidthDomination.CutRank",
+      "path": "RankwidthDomination/CutRank.lean",
+      "sha256": "062f77911aaa833a50f8775c02f748da6a23c051c7866f5cc794bdabfe6737e9"
+    },
+    {
+      "module": "RankwidthDomination.Decomposition",
+      "path": "RankwidthDomination/Decomposition.lean",
+      "sha256": "49af897ac897929b3c640f9d496726c15c7c5a930f3f7c1e5605748c8f9996e4"
+    },
+    {
+      "module": "RankwidthDomination.DecompositionAlgorithm",
+      "path": "RankwidthDomination/DecompositionAlgorithm.lean",
+      "sha256": "64fe798c30afa7593ae63aede793ce4de22526160850acb7e7dca54d898e4061"
+    },
+    {
+      "module": "RankwidthDomination.DimensionsSource",
+      "path": "RankwidthDomination/DimensionsSource.lean",
+      "sha256": "78770046ffa3f55b625fcb3d042ac67c26b225b68eb36dd24337b7d453577498"
+    },
+    {
+      "module": "RankwidthDomination.Enumeration",
+      "path": "RankwidthDomination/Enumeration.lean",
+      "sha256": "aad6d09b1343830567763754d6284f54a6ecef8dd6def9c55a8258611246b337"
+    },
+    {
+      "module": "RankwidthDomination.Equality",
+      "path": "RankwidthDomination/Equality.lean",
+      "sha256": "170eb0257490625e4e83275a5c54fd0c798d7cce116d16d055c8d4eeae2b7ebc"
+    },
+    {
+      "module": "RankwidthDomination.ExtendedGraphPipeline",
+      "path": "RankwidthDomination/ExtendedGraphPipeline.lean",
+      "sha256": "24732ac93651ad58066dccc37fa86262028fa353df0a0ff94288109587b2f50f"
+    },
+    {
+      "module": "RankwidthDomination.ExtendedMatrixSource",
+      "path": "RankwidthDomination/ExtendedMatrixSource.lean",
+      "sha256": "5570453409dae5a096925a7fde72977352e81bab2b68c6e7baac556821779c97"
+    },
+    {
+      "module": "RankwidthDomination.ExtendedTableEvaluation",
+      "path": "RankwidthDomination/ExtendedTableEvaluation.lean",
+      "sha256": "145fee9b6e46229aab16a67b4ddb190f027b1bca3bf37f5f39673e44b5929c6f"
+    },
+    {
+      "module": "RankwidthDomination.FamilyCallbacks",
+      "path": "RankwidthDomination/FamilyCallbacks.lean",
+      "sha256": "a81c4ecc58ebd7bc6332af17beaf52e1217b3a67e6f3ed8897dfc2e512259a03"
+    },
+    {
+      "module": "RankwidthDomination.FamilySemantics",
+      "path": "RankwidthDomination/FamilySemantics.lean",
+      "sha256": "b4c9b4aa5e939dc6661247170282867ea7c0c27472eeb8644b878fc7b945d77f"
+    },
+    {
+      "module": "RankwidthDomination.FirstWord",
+      "path": "RankwidthDomination/FirstWord.lean",
+      "sha256": "c47276a0e2a1c41c4fb8be73d5505d537e5840684f2580e65a8d9b2a9e9c491e"
+    },
+    {
+      "module": "RankwidthDomination.GeneratorRows",
+      "path": "RankwidthDomination/GeneratorRows.lean",
+      "sha256": "0c53230613597d6b2d8773d92e91fa734582b51a5af651cbf9b7620885d4c65b"
+    },
+    {
+      "module": "RankwidthDomination.GraphEvaluator",
+      "path": "RankwidthDomination/GraphEvaluator.lean",
+      "sha256": "d2e61f099c4056eede2e66694abfa2986e0f2ea08d3f2e8c6ef899b7bf39e85b"
+    },
+    {
+      "module": "RankwidthDomination.GraphGenerator",
+      "path": "RankwidthDomination/GraphGenerator.lean",
+      "sha256": "3020ee1e0c93241ef20ca512ed3c12f9a84d06bfc539e81eea7f9ee7ad786cac"
+    },
+    {
+      "module": "RankwidthDomination.GraphPipeline",
+      "path": "RankwidthDomination/GraphPipeline.lean",
+      "sha256": "23304ba0a8c520c4d2429379d009e439eb0bdeeacecf1d5f27538100f889fb03"
+    },
+    {
+      "module": "RankwidthDomination.GraphProblem",
+      "path": "RankwidthDomination/GraphProblem.lean",
+      "sha256": "42d7df6b869ee1834dbf141b66f40098b6f16429b14c3e87c0847334a6da0535"
+    },
+    {
+      "module": "RankwidthDomination.GraphRegisters",
+      "path": "RankwidthDomination/GraphRegisters.lean",
+      "sha256": "f10ea7e7e3f845e59b07374ef090f17cdcdfe559f07152a76fd1d85e118a586b"
+    },
+    {
+      "module": "RankwidthDomination.GraphSize",
+      "path": "RankwidthDomination/GraphSize.lean",
+      "sha256": "28505cae41e9acc234a195b359fb94e8d96edbd17e85e7d0de2402f3e79c1c89"
+    },
+    {
+      "module": "RankwidthDomination.GraphVertexEnumeration",
+      "path": "RankwidthDomination/GraphVertexEnumeration.lean",
+      "sha256": "3dc2f8a365c475fdf724ffe71ec0d5130668c13863304006f2096a3df647b875"
+    },
+    {
+      "module": "RankwidthDomination.LayerCuts",
+      "path": "RankwidthDomination/LayerCuts.lean",
+      "sha256": "3da526e329d15a057a61b4e0fda301c7631c8f4fbab2c02e117cb832e27a09a3"
+    },
+    {
+      "module": "RankwidthDomination.Layout",
+      "path": "RankwidthDomination/Layout.lean",
+      "sha256": "d82ff57dc1e1584e171a158ce5029610789ad4673da9e6c7d4dbc656a0ecfe58"
+    },
+    {
+      "module": "RankwidthDomination.LowerBounds",
+      "path": "RankwidthDomination/LowerBounds.lean",
+      "sha256": "57b49c45e10d8b98fcc688320402d635f3b8d9a915101b5594f0292d68f700e6"
+    },
+    {
+      "module": "RankwidthDomination.MachineOrder",
+      "path": "RankwidthDomination/MachineOrder.lean",
+      "sha256": "be98da90bf2b8d21e05239286d4816de2a6fd2fd61624a87aa1cf83b6282e3ef"
+    },
+    {
+      "module": "RankwidthDomination.MainResults",
+      "path": "RankwidthDomination/MainResults.lean",
+      "sha256": "0bb9e2d59071415cc34739574a24ba980e3ee1da1332a19a2ea1daee61d3b694"
+    },
+    {
+      "module": "RankwidthDomination.MatrixSource",
+      "path": "RankwidthDomination/MatrixSource.lean",
+      "sha256": "7700783239a8377d2860f8a5edcf4d6b7aa95a9ae57ce0cf32ba97a89f1140f6"
+    },
+    {
+      "module": "RankwidthDomination.MetadataSource",
+      "path": "RankwidthDomination/MetadataSource.lean",
+      "sha256": "d086d346c9e723884a16f55d0f7f999d6bb6273166a0ed649bac4c0846714ca3"
+    },
+    {
+      "module": "RankwidthDomination.Order",
+      "path": "RankwidthDomination/Order.lean",
+      "sha256": "67c4f1a543a256e731834de056c049a22578e6a91ddcb2aa6a2220d0c9f1a187"
+    },
+    {
+      "module": "RankwidthDomination.OrderTransport",
+      "path": "RankwidthDomination/OrderTransport.lean",
+      "sha256": "f9cd2406fa8b3fbdd55345b002091878ba4b08c86f0719aafa21c12203c7566c"
+    },
+    {
+      "module": "RankwidthDomination.OrdinaryCountingSETH",
+      "path": "RankwidthDomination/OrdinaryCountingSETH.lean",
+      "sha256": "ffd75a9622a1285b551d1e773512a37cf64a147d1f02255994eb8886b5c77984"
+    },
+    {
+      "module": "RankwidthDomination.Padding",
+      "path": "RankwidthDomination/Padding.lean",
+      "sha256": "4cfc18eca15806999e139ad9b5e99d28d380f7503f82ddfa4f0f9d726cc07974"
+    },
+    {
+      "module": "RankwidthDomination.PaddingMachine",
+      "path": "RankwidthDomination/PaddingMachine.lean",
+      "sha256": "84ea3cd970b1ad026034a2c6776c60a9cb5271291920919eddf2ddd9253bb124"
+    },
+    {
+      "module": "RankwidthDomination.PaddingPipeline",
+      "path": "RankwidthDomination/PaddingPipeline.lean",
+      "sha256": "57bc00e20cbe37195fe5cab78a3e22d2fefa45b81ad5331d046b2a89c989d061"
+    },
+    {
+      "module": "RankwidthDomination.PerfectCode",
+      "path": "RankwidthDomination/PerfectCode.lean",
+      "sha256": "89c2e603468d26ef6b34c78c16497bbddfe7aa00d16d9bd2e9fd04183e6c7475"
+    },
+    {
+      "module": "RankwidthDomination.ProgramComposition",
+      "path": "RankwidthDomination/ProgramComposition.lean",
+      "sha256": "3f8f1cdd0da2504075fae1bd87f39cfcde9acd0780d6ab058fd3c7b0fc110646"
+    },
+    {
+      "module": "RankwidthDomination.Rank",
+      "path": "RankwidthDomination/Rank.lean",
+      "sha256": "27ca29e4a64428549ef5e6b82012346b3925e4f9ea5191ca74cfabf03b3772e5"
+    },
+    {
+      "module": "RankwidthDomination.RawPaperOrder",
+      "path": "RankwidthDomination/RawPaperOrder.lean",
+      "sha256": "a4e49832c158bfdea37b267e8f15c4ec2a259b9bc7706a33734d24f80bf025a8"
+    },
+    {
+      "module": "RankwidthDomination.ReductionMachine",
+      "path": "RankwidthDomination/ReductionMachine.lean",
+      "sha256": "9f46c54e6f12c1697a272344c28886a363dec50eecbe3acffd30636f6060c7a0"
+    },
+    {
+      "module": "RankwidthDomination.RefinementDecomposition",
+      "path": "RankwidthDomination/RefinementDecomposition.lean",
+      "sha256": "cf06331490e510dfa64f9e509719c943e435bca45d8821c86441308f3b43a5e4"
+    },
+    {
+      "module": "RankwidthDomination.Refinements",
+      "path": "RankwidthDomination/Refinements.lean",
+      "sha256": "8204c07bf5db293470c6f3445cb218bb03f56a778358ee8adf6831317a53335c"
+    },
+    {
+      "module": "RankwidthDomination.Sideband",
+      "path": "RankwidthDomination/Sideband.lean",
+      "sha256": "034e74509c7130053f35c5ccba2cc3d4dec369ba41f39022fef7a0c2d0997718"
+    },
+    {
+      "module": "RankwidthDomination.SigmaBranches",
+      "path": "RankwidthDomination/SigmaBranches.lean",
+      "sha256": "d8659ee299dc58b59ec2a91b7c4f4ee1a859fb74e15f3a7270c5f814bc909026"
+    },
+    {
+      "module": "RankwidthDomination.SigmaConstruction",
+      "path": "RankwidthDomination/SigmaConstruction.lean",
+      "sha256": "e722f898b4221c2db738f54f9195b8d285f08421f43f88d14306aeaeff01f29f"
+    },
+    {
+      "module": "RankwidthDomination.SigmaRho",
+      "path": "RankwidthDomination/SigmaRho.lean",
+      "sha256": "028e6e56df91c1047b879f0989f393d440006e89d4c62fd99a1afbfb4d41f71c"
+    },
+    {
+      "module": "RankwidthDomination.SigmaWidth",
+      "path": "RankwidthDomination/SigmaWidth.lean",
+      "sha256": "bd731157ee4e4dcd0442c1b17b64a9a07644830a210c1961e856bafd3a94c784"
+    },
+    {
+      "module": "RankwidthDomination.SourceCases",
+      "path": "RankwidthDomination/SourceCases.lean",
+      "sha256": "c9df485907a2c28843f76a4acf983b582688ceef8b469ccdafa75396cf894c94"
+    },
+    {
+      "module": "RankwidthDomination.SourcePreprocessor",
+      "path": "RankwidthDomination/SourcePreprocessor.lean",
+      "sha256": "e6efd5f66c0f3cf62468d0682c0dc37d8f15478109b092c3b5f40d36789824be"
+    },
+    {
+      "module": "RankwidthDomination.Standard",
+      "path": "RankwidthDomination/Standard.lean",
+      "sha256": "7e9d37ab909c2d5c676be7a108985a2ff49f6df69bc58b317dd69c85431fdf16"
+    },
+    {
+      "module": "RankwidthDomination.StandardAdjacencyAlgorithm",
+      "path": "RankwidthDomination/StandardAdjacencyAlgorithm.lean",
+      "sha256": "0ef119d0ae0c1efc5d6e4ef5021cd4ec53681b9b637efa151299015fddeb056c"
+    },
+    {
+      "module": "RankwidthDomination.StandardAlgorithm",
+      "path": "RankwidthDomination/StandardAlgorithm.lean",
+      "sha256": "d59e1d04e460d2b2df16309b2e64cd0d49a6828c0c2cb2577a488713b6c3c488"
+    },
+    {
+      "module": "RankwidthDomination.StandardOrder",
+      "path": "RankwidthDomination/StandardOrder.lean",
+      "sha256": "70d48dd45e87f73c7cf927b7c583615b2502111274751606c48a701e646650ef"
+    },
+    {
+      "module": "RankwidthDomination.StandardRefinements",
+      "path": "RankwidthDomination/StandardRefinements.lean",
+      "sha256": "9405034f51236aa9f5a2b5e39c1821df67b07a450348ae22762618a8ac2d61d2"
+    },
+    {
+      "module": "RankwidthDomination.StandardSigma",
+      "path": "RankwidthDomination/StandardSigma.lean",
+      "sha256": "4d4e37579a425912eb11ce5e31dfef943645d09c989af1bb2851d6a819bdbf26"
+    },
+    {
+      "module": "RankwidthDomination.TargetAssembly",
+      "path": "RankwidthDomination/TargetAssembly.lean",
+      "sha256": "b4cdf72883afbadbe468552594ed79d8caf29efb9dc8667acacbbcae487a1cc1"
+    },
+    {
+      "module": "RankwidthDomination.TargetMetadataCertificates",
+      "path": "RankwidthDomination/TargetMetadataCertificates.lean",
+      "sha256": "c9202bdadfd2f4ce072f345b6fe09011ba46b8f9cc5be44fdfb3a1a200ef302c"
+    },
+    {
+      "module": "RankwidthDomination.TargetMetadataExecution",
+      "path": "RankwidthDomination/TargetMetadataExecution.lean",
+      "sha256": "1cf7147dd6f69ba50441a6b7c02a79d413e954fc0313dc420313212a1552c848"
+    },
+    {
+      "module": "RankwidthDomination.TargetMetadataFamily",
+      "path": "RankwidthDomination/TargetMetadataFamily.lean",
+      "sha256": "40ba97049916ed7ed868cc2052c2c396dc2931a1bb9f0416562a0cf0a17050f4"
+    },
+    {
+      "module": "RankwidthDomination.TargetMetadataMachine",
+      "path": "RankwidthDomination/TargetMetadataMachine.lean",
+      "sha256": "6325633401440a127a2323f3c3f98de136298b4a82d53375ffeeede2f9936994"
+    },
+    {
+      "module": "RankwidthDomination.TargetMetadataPrograms",
+      "path": "RankwidthDomination/TargetMetadataPrograms.lean",
+      "sha256": "fd508011fded6a1079fbddf16565fa3bd95d962f8490ac13fe7463e0edc8731c"
+    },
+    {
+      "module": "RankwidthDomination.TargetSpliceMachine",
+      "path": "RankwidthDomination/TargetSpliceMachine.lean",
+      "sha256": "241b698dee8b9245fb287d151a58ecd32f6b70400fd9a3c192d7c69cc290e858"
+    },
+    {
+      "module": "RankwidthDomination.Transport",
+      "path": "RankwidthDomination/Transport.lean",
+      "sha256": "b6cf40761b2e061a30b96fe958992fab21e31275dc2e56ddd1c582f8dc2a2207"
+    },
+    {
+      "module": "RankwidthDomination.TreeGraph",
+      "path": "RankwidthDomination/TreeGraph.lean",
+      "sha256": "d965f311a9512a69796cebc41f1566a5123f26a6e345fd69c9ae4d189cf8e7c7"
+    },
+    {
+      "module": "RankwidthDomination.WidthParameters",
+      "path": "RankwidthDomination/WidthParameters.lean",
+      "sha256": "8dbe535a5c075fbad5ea5d9329826ba3bede4addd935fb9e07d755ac7cb73576"
+    },
+    {
+      "module": "RankwidthDomination.WitnessDimensions",
+      "path": "RankwidthDomination/WitnessDimensions.lean",
+      "sha256": "f7d1d572b22bf98e1e72c3828be81ff15561dbcd1c505d52429d939c89f91c33"
+    },
+    {
+      "module": "RankwidthDomination.WitnessEncoding",
+      "path": "RankwidthDomination/WitnessEncoding.lean",
+      "sha256": "f43d28bd56b322af9d067be9a91e21228187501fb112df413085279babb5a9db"
+    },
+    {
+      "module": "RankwidthDomination.WitnessFinish",
+      "path": "RankwidthDomination/WitnessFinish.lean",
+      "sha256": "e0592597f95565060098898d6ec256544d4dd0739131d3940e4fea5e54f4b712"
+    },
+    {
+      "module": "RankwidthDomination.WitnessMachine",
+      "path": "RankwidthDomination/WitnessMachine.lean",
+      "sha256": "2ce4410734afbb6f750671ced4288cf00aee9b701e40b630da92e240281a0c57"
+    },
+    {
+      "module": "RankwidthDomination.WitnessPipeline",
+      "path": "RankwidthDomination/WitnessPipeline.lean",
+      "sha256": "1b1eaea941591582ff5c2e380670c447c1447d0106191194f13d3afd88f47284"
+    },
+    {
+      "module": "RankwidthDomination.WitnessRegisters",
+      "path": "RankwidthDomination/WitnessRegisters.lean",
+      "sha256": "19ebf6d34641fc9bbc143c3e9269ebf8774da2081545efa6939bbc0b88275091"
+    },
+    {
+      "module": "RankwidthDomination.WitnessedRankWidth",
+      "path": "RankwidthDomination/WitnessedRankWidth.lean",
+      "sha256": "b044de57bec648c4b636de08683476cf7bace89f14e6af1e5987deda33b0cec9"
+    }
+  ],
+  "original_component_proof_overlap": [
+    "RankwidthDomination.Standard.vertex_card"
+  ],
+  "manual_assertion_proof_overlap": [],
+  "external_dependency_policy": "Pinned Lean 4.24.0 and public mathlib dependencies; official Export.Parse from pinned Comparator dependency lean4export v4.24.0",
+  "source_paper_sha256": "878c7445618f9def622e9140b814319cb58d06ddaf6bb0788d41277d59256e04",
+  "public_inventory": {
+    "path": "definition-inventory.json",
+    "sha256": "897260cb7ac6afbce0a9776d6c0d4df2deda6800ecad3b473fe49485090fa8b8",
+    "declarations": 1998,
+    "fields": [
+      "name",
+      "kind",
+      "module"
+    ]
+  },
+  "critical_definition_index": {
+    "path": "CRITICAL_DEFINITIONS.md",
+    "sha256": "dd6e3e75d9f6032bc965c09cb0fce488fe20964cd80b9f0893c0130e4005a9a5",
+    "definitions": [
+      {
+        "name": "RankwidthDomination.Complexity.FiniteMachine",
+        "module": "RankwidthDomination.Complexity",
+        "source": "RankwidthDomination/Complexity.lean",
+        "line": 625,
+        "rendered_definition_sha256": null
+      },
+      {
+        "name": "RankwidthDomination.Complexity.FiniteMachine.outputsInTime",
+        "module": "RankwidthDomination.Complexity",
+        "source": "RankwidthDomination/Complexity.lean",
+        "line": 632,
+        "rendered_definition_sha256": "842fb4b25aed11513bf2bfc35e3d1f31cefdf3af0a8898e69ae9ac4ea7ebc0b2"
+      },
+      {
+        "name": "RankwidthDomination.Complexity.HasSubexponentialDecision",
+        "module": "RankwidthDomination.Complexity",
+        "source": "RankwidthDomination/Complexity.lean",
+        "line": 660,
+        "rendered_definition_sha256": "4ad650f56250a56914d726219bd712d40d5708047f607ab6af05fdc6e372613e"
+      },
+      {
+        "name": "RankwidthDomination.Complexity.HasSubexponentialCounting",
+        "module": "RankwidthDomination.Complexity",
+        "source": "RankwidthDomination/Complexity.lean",
+        "line": 668,
+        "rendered_definition_sha256": "a35866ebb63a44a112634bf91bf1ef32d3e623c12e1633e111c8a4e07e517d25"
+      },
+      {
+        "name": "RankwidthDomination.Complexity.ETH",
+        "module": "RankwidthDomination.Complexity",
+        "source": "RankwidthDomination/Complexity.lean",
+        "line": 676,
+        "rendered_definition_sha256": "7541431dbaa2008a2b0cbbcb97cf8953ad159979e1a7d2a95c460cc447cda65b"
+      },
+      {
+        "name": "RankwidthDomination.Complexity.CountingETH",
+        "module": "RankwidthDomination.Complexity",
+        "source": "RankwidthDomination/Complexity.lean",
+        "line": 679,
+        "rendered_definition_sha256": "428a07707ac1eae7a4e86762c6cf62259cee25cb72254260f785ce97e6f4ad6f"
+      },
+      {
+        "name": "RankwidthDomination.Complexity.OrdinaryCountingSETH",
+        "module": "RankwidthDomination.OrdinaryCountingSETH",
+        "source": "RankwidthDomination/OrdinaryCountingSETH.lean",
+        "line": 24,
+        "rendered_definition_sha256": "ba62808835b5d2af10532c5b9424bf1a537ad5cbafd423b3e97f42909774c512"
+      },
+      {
+        "name": "RankwidthDomination.GraphProblem.Solution",
+        "module": "RankwidthDomination.GraphProblem",
+        "source": "RankwidthDomination/GraphProblem.lean",
+        "line": 30,
+        "rendered_definition_sha256": "557720b072a751038c45da9a6689c735ed32c5f835001bed5a3d81983e9fb5b4"
+      },
+      {
+        "name": "RankwidthDomination.GraphProblem.InClass",
+        "module": "RankwidthDomination.GraphProblem",
+        "source": "RankwidthDomination/GraphProblem.lean",
+        "line": 57,
+        "rendered_definition_sha256": "20f1bca450310ec723aceb4f064da4cc44fc996b0e0b5a8ad237c718ff9f9737"
+      },
+      {
+        "name": "RankwidthDomination.GraphProblem.Certificate",
+        "module": "RankwidthDomination.GraphProblem",
+        "source": "RankwidthDomination/GraphProblem.lean",
+        "line": 69,
+        "rendered_definition_sha256": "9a50f131378ce33f247ea01f0b934872f63166745f14b78d93ef05fd851019c1"
+      },
+      {
+        "name": "RankwidthDomination.GraphProblem.inputBits",
+        "module": "RankwidthDomination.GraphProblem",
+        "source": "RankwidthDomination/GraphProblem.lean",
+        "line": 112,
+        "rendered_definition_sha256": "d4ee4a0af931f812718d832c692ecb2093937f40c7c71755c2b47d4c7b1c6ab5"
+      },
+      {
+        "name": "RankwidthDomination.GraphProblem.outputBits",
+        "module": "RankwidthDomination.GraphProblem",
+        "source": "RankwidthDomination/GraphProblem.lean",
+        "line": 129,
+        "rendered_definition_sha256": "055e872b98c5f763f7b598710fb61ed869f4b36d36e33390bb7be65246d81fe5"
+      },
+      {
+        "name": "RankwidthDomination.GraphProblem.parameterValue",
+        "module": "RankwidthDomination.GraphProblem",
+        "source": "RankwidthDomination/GraphProblem.lean",
+        "line": 75,
+        "rendered_definition_sha256": "f202b5eab1af23fa1de55248d7babcff42a21c06931f4dc1943c1746c9382568"
+      },
+      {
+        "name": "RankwidthDomination.GraphProblem.HasSubquadraticAlgorithm",
+        "module": "RankwidthDomination.GraphProblem",
+        "source": "RankwidthDomination/GraphProblem.lean",
+        "line": 140,
+        "rendered_definition_sha256": "784ed7487e44a358d3d4a67455ac084ac0286c94030e355e0ccec35ce183318b"
+      },
+      {
+        "name": "RankwidthDomination.GraphProblem.HasQuadraticRateAlgorithm",
+        "module": "RankwidthDomination.GraphProblem",
+        "source": "RankwidthDomination/GraphProblem.lean",
+        "line": 153,
+        "rendered_definition_sha256": "3225f4716a599afc84185fadadab248ee3f74daf46ab8a91788c547d604e35e6"
+      },
+      {
+        "name": "RankwidthDomination.WidthParameters.rankWidth",
+        "module": "RankwidthDomination.WidthParameters",
+        "source": "RankwidthDomination/WidthParameters.lean",
+        "line": 219,
+        "rendered_definition_sha256": "814c863d57ce339bacce49b35c41f5449ea7655eba4df3c0759d92b3014640d1"
+      },
+      {
+        "name": "RankwidthDomination.WitnessedRankWidth.HasRankWidthAlgorithm",
+        "module": "RankwidthDomination.WitnessedRankWidth",
+        "source": "RankwidthDomination/WitnessedRankWidth.lean",
+        "line": 20,
+        "rendered_definition_sha256": "3e9dec9608fb66d03da52dcd2e0b61c845f92591ff2a18d38fb52ceb45277852"
+      },
+      {
+        "name": "RankwidthDomination.Satisfies",
+        "module": "RankwidthDomination.Basic",
+        "source": "RankwidthDomination/Basic.lean",
+        "line": 18,
+        "rendered_definition_sha256": "36f8cd0a3c1e981e8b9e280521b54862edca0a768a09f4705b9aa514fc640d1a"
+      },
+      {
+        "name": "RankwidthDomination.coreAdj",
+        "module": "RankwidthDomination.Basic",
+        "source": "RankwidthDomination/Basic.lean",
+        "line": 42,
+        "rendered_definition_sha256": "2adc76698372dda981c56c25576cb4a11ed06c4c8a4edd40e72dffbb7bcffae2"
+      },
+      {
+        "name": "RankwidthDomination.cutRank",
+        "module": "RankwidthDomination.Layout",
+        "source": "RankwidthDomination/Layout.lean",
+        "line": 20,
+        "rendered_definition_sha256": "24e63a8449cf5777e636d3339aeb1ba9e145b9c40bd4806c2a1fac12b6e746eb"
+      },
+      {
+        "name": "RankwidthDomination.IsSigmaRho",
+        "module": "RankwidthDomination.SigmaRho",
+        "source": "RankwidthDomination/SigmaRho.lean",
+        "line": 19,
+        "rendered_definition_sha256": "c3759117e21c85150a56d50aad3ea59bd1c8128b05b0d00fd8d196b74aef2075"
+      },
+      {
+        "name": "RankwidthDomination.B1RAM.output",
+        "module": "RankwidthDomination.B1RAMSerialization",
+        "source": "RankwidthDomination/B1RAMSerialization.lean",
+        "line": 94,
+        "rendered_definition_sha256": "e96fedca6c933bcaeb3de3606c2b874bdba46b503970f30c9bd198a9147b1d8d"
+      },
+      {
+        "name": "RankwidthDomination.StandardAdjacencyAlgorithm.coreMatrix",
+        "module": "RankwidthDomination.StandardAdjacencyAlgorithm",
+        "source": "RankwidthDomination/StandardAdjacencyAlgorithm.lean",
+        "line": 630,
+        "rendered_definition_sha256": "80796df6bcad1554601428316f1a1c868dcf9f8bf17bb20508afe9440c1799dd"
+      },
+      {
+        "name": "RankwidthDomination.SplitPerfectCode.PerfectCode",
+        "module": "RankwidthDomination.PerfectCode",
+        "source": "RankwidthDomination/PerfectCode.lean",
+        "line": 21,
+        "rendered_definition_sha256": "8c44feb2ccd45309ad1fd078244a19fc3395cf1324e293e50f72eed20c15732a"
+      },
+      {
+        "name": "RankwidthDomination.SplitPerfectCode.solve",
+        "module": "RankwidthDomination.PerfectCode",
+        "source": "RankwidthDomination/PerfectCode.lean",
+        "line": 549,
+        "rendered_definition_sha256": "e3e17ecf2cd3cdaa3473ae087ac8df593e24d313ee1aacd1ea22e20bc52439ea"
+      },
+      {
+        "name": "RankwidthDomination.SplitPerfectCode.optimize",
+        "module": "RankwidthDomination.PerfectCode",
+        "source": "RankwidthDomination/PerfectCode.lean",
+        "line": 974,
+        "rendered_definition_sha256": "380038c9dc7c56cd5d42ab86c2058fc3ed7556337de1d55ba4988a8bdd6832fc"
+      }
+    ]
+  },
+  "expanded_audit_inventory_retained_outside_distribution": true
+}
