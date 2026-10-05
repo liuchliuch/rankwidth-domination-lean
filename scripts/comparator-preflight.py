@@ -62,7 +62,7 @@ def main():
     landrun = str((a.tools/'bin/landrun').resolve())
     # Strict mode is safe even when Landlock is wholly absent. The workload is
     # only /usr/bin/true; no submitted file or proof is opened by this probe.
-    strict = capture([landrun,'--ro','/','--ldd','--add-exec',shutil.which('true') or '/usr/bin/true'])
+    strict = capture([landrun,'--ro','/','--ldd','--add-exec','--',shutil.which('true') or '/usr/bin/true'])
     strict.update(role='diagnostic_v9_only', required=False)
     result['checks'].append(strict)
     if platform.system() != 'Linux' or platform.machine() not in ('x86_64','aarch64'):
@@ -90,7 +90,7 @@ def main():
              '--property=RestrictAddressFamilies=~AF_UNIX','--property=NoNewPrivileges=yes','--']
     # The pinned 4.24 branch predates this security advisory. Its guard still
     # applies. We retain it even on newer kernels for a uniform audited flow.
-    smoke = capture(guard + [landrun,'--best-effort','--ro','/','--rw','/dev','--ldd','--add-exec',shutil.which('true') or '/usr/bin/true'])
+    smoke = capture(guard + [landrun,'--best-effort','--ro','/','--rw','/dev','--ldd','--add-exec','--',shutil.which('true') or '/usr/bin/true'])
     result['checks'].append(smoke)
     if smoke['exit_code']:
         result['blockers'].append('Official systemd AF_UNIX guard + real Landrun smoke test failed')
@@ -102,7 +102,7 @@ def main():
                    'try:\n f=os.open(sys.argv[1],os.O_WRONLY|os.O_TRUNC)\n'
                    'except OSError as e:\n sys.exit(0 if e.errno in (errno.EACCES,errno.EPERM) else 12)\n'
                    'else:\n os.close(f);sys.exit(11)\n')
-        probe = capture(guard + [landrun,'--best-effort','--ro','/','--rw','/dev','--ldd','--add-exec',
+        probe = capture(guard + [landrun,'--best-effort','--ro','/','--rw','/dev','--ldd','--add-exec','--',
                                 sys.executable,'-c',program,str(canary)])
         result['checks'].append(probe)
         if probe['exit_code'] or canary.read_text() != 'unchanged\n':
@@ -126,7 +126,7 @@ def main():
                    ' except OSError as e:\n'
                    '  if e.errno not in (errno.EACCES,errno.EPERM,errno.EAFNOSUPPORT):sys.exit(12)\n'
                    ' else:\n  s.close();sys.exit(11)\n')
-    network = capture(guard + [landrun,'--best-effort','--ro','/','--rw','/dev','--ldd','--add-exec',
+    network = capture(guard + [landrun,'--best-effort','--ro','/','--rw','/dev','--ldd','--add-exec','--',
                               sys.executable,'-c',net_program,str(port)])
     network.update(role='required_network_enforcement', required=True)
     result['checks'].append(network)
